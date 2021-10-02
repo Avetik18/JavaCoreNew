@@ -16,16 +16,8 @@ public class IfExample {
             for (int i = 0; i < 20; i++)
                 System.out.println(i + "hello");
         }
-        int x, y;
-        x = 10;
-        y = 20;
-        if (x < y) {
-            System.out.println("x менше y ");
-            x = 2 * x;
-            if (x == y) System.out.println("x теперь  равно y");
-            x = x * 2;
-            if (x > y)
-                System.out.println("x теперь больше y");
+
+
         }
 
 
